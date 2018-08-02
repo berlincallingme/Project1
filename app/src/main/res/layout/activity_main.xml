@@ -8,29 +8,50 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/judithundich"
-        android:scaleType="centerCrop"/>
+        android:src="@drawable/noodlebox"
+        android:scaleType="centerCrop"
+        />
+
+
+
+
+
 
     <TextView
-        android:text="Looking Forward......"
+        android:text="The Noodle Box"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="36sp"
+        android:textSize="40sp"
         android:fontFamily="cursive"
         android:textColor="#FF80AB"
-        android:padding="50dp"/>
+        android:padding="50dp"
+        android:id="@+id/biz_name"
+        />
+
 
     <TextView
+        android:text="Ph:+1 250-384-1314"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
+        android:textSize="40sp"
         android:fontFamily="cursive"
-        android:padding="20dp"
-        android:text="To Being Here
-With You Again "
-        android:textColor="#D50000"
-        android:textSize="36sp" />
+        android:textColor="#FF80AB"
+        android:padding="50dp"
+        android:id="@+id/phone"
+        android:layout_below="@+id/biz_name"
+
+        />
+    <TextView
+        android:text="Address: 818 Douglas St, Victoria, BC V8W 2B6, Canada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:textColor="#212121"
+        android:padding="50dp"
+        android:layout_below="@+id/phone"
+        />
+
+
 
 </RelativeLayout>
