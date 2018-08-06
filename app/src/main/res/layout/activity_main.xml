@@ -4,19 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/noodlebox"
         android:scaleType="centerCrop"
         />
-
-
-
-
-
-
     <TextView
         android:text="The Noodle Box"
         android:layout_width="wrap_content"
@@ -27,8 +20,6 @@
         android:padding="50dp"
         android:id="@+id/biz_name"
         />
-
-
     <TextView
         android:text="Ph:+1 250-384-1314"
         android:layout_width="wrap_content"
@@ -38,9 +29,7 @@
         android:textColor="#FF80AB"
         android:padding="50dp"
         android:id="@+id/phone"
-        android:layout_below="@+id/biz_name"
-
-        />
+        android:layout_below="@+id/biz_name" />
     <TextView
         android:text="Address: 818 Douglas St, Victoria, BC V8W 2B6, Canada"
         android:layout_width="wrap_content"
@@ -51,7 +40,4 @@
         android:padding="50dp"
         android:layout_below="@+id/phone"
         />
-
-
-
 </RelativeLayout>
